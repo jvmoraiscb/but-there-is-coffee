@@ -1,0 +1,8 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define WIFI_SSID "wifi-ssid"
+#define WIFI_PASSWORD "wifi-password"
+#define SERVER_NAME "server-endpoint"
+
+#endif
