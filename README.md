@@ -3,13 +3,13 @@
 ## casos de uso:
 
 -   como usuario não logado, quero ver todos os laboratórios que posso me cadastrar
--   como usuario não logado, quero cadastrar meu email em um determinado laboratório
 -   como usuario não logado, quero verificar em quais laboratórios o meu email está cadastrado
+-   como usuario não logado, quero cadastrar meu email em um determinado laboratório
 -   como usuario não logado, quero remover meu email da lista de transmissão de determinados laboratórios, recebendo um email de confirmação
--   como usuario não logado, quero logar como admin
 
 ---
 
+-   como admin não logado, quero logar como admin
 -   como admin, quero alterar informações do meu cadastro
 -   como admin, quero ver todos os laboratórios (que tenho autorização)
 -   como admin, quero atualizar as informações de determinado laboratório (que tenho autorização)
@@ -47,7 +47,13 @@
     -   isSuperAdmin: boolean
 
 -   group:
+
     -   id: string (unique)
     -   name: string
     -   description: string
     -   users: string[] (user.id)
+
+-   triggers:
+    -   id: string (unique)
+    -   name: string
+    -   description: string
