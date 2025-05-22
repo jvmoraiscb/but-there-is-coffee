@@ -1,16 +1,15 @@
-/*
-package com.jvmoraiscb.but_there_is_coffee_api.domain;
+package com.jvmoraiscb.but_there_is_coffee_api.domain.admin;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
+import com.jvmoraiscb.but_there_is_coffee_api.domain.group.Group;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @Getter
-@Setter
 @NoArgsConstructor
 public class Admin {
     private UUID id;
@@ -40,4 +39,3 @@ public class Admin {
         return Objects.hash(this.id, this.id, this.email, this.password, this.adminGroups, this.isSuperAdmin);
     }
 }
-    */
