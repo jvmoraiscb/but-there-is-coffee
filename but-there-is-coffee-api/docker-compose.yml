@@ -3,7 +3,7 @@ services:
         container_name: api-postgres
         image: postgres:latest
         environment:
-            POSTGRES_USER: butthereiscoffee
+            POSTGRES_USER: but-there-is-coffee-api
             POSTGRES_PASSWORD: password
         ports:
             - "5432:5432"

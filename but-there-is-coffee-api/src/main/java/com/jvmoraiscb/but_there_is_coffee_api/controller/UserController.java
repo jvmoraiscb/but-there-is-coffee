@@ -1,4 +1,4 @@
-package com.jvmoraiscb.but_there_is_coffee_api.controllers;
+package com.jvmoraiscb.but_there_is_coffee_api.controller;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,10 +1,8 @@
-package com.jvmoraiscb.but_there_is_coffee_api.domain.user;
+package com.jvmoraiscb.but_there_is_coffee_api.domain.entity;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
-
-import com.jvmoraiscb.but_there_is_coffee_api.domain.group.Group;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
